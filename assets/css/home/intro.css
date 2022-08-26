@@ -1,0 +1,144 @@
+.intro-bg {
+  background: url("../../image/details/bottom-left.svg") no-repeat bottom 40px
+      left 40px,
+    url("../../image/details/top-right.svg") no-repeat top 20px right 40px,
+    var(--cor-12);
+  border-top: solid 1px var(--cor-10);
+}
+
+.intro {
+  padding: 160px 220px;
+}
+
+.intro-content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro h1 {
+  margin-bottom: 0.5rem;
+}
+.intro span {
+  margin-bottom: 0.5rem;
+}
+
+.cv-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 1rem;
+}
+.cv-container a:hover {
+  color: var(--cor-0);
+}
+
+.vetor-img img {
+  width: 100%;
+  max-width: 500px;
+}
+
+@media (max-width: 950px) {
+  .intro {
+    padding: 50px 0;
+  }
+
+  .intro-content {
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .intro-name {
+    text-align: center;
+  }
+  .intro-name h1,
+  .intro-name span {
+    margin-bottom: 0.1rem;
+    line-height: 1.15;
+  }
+  .intro-name span {
+    margin-bottom: 0.4rem;
+  }
+
+  .cv-container {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .cv-container a:hover {
+    color: var(--cor-0);
+  }
+}
+
+@media (max-width: 650px) {
+  .intro-bg {
+    background: var(--cor-12);
+  }
+}
+
+/*
+
+
+@media (max-width: 800px) {
+  .intro-bg {
+    background: var(--color-12);
+  }
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: initial;
+  }
+
+  .intro-content {
+    text-align: center;
+  }
+
+  .intro-img {
+    grid-row: 1;
+    margin: 0 auto;
+  }
+
+  .intro h1 {
+    margin-bottom: 1rem;
+  }
+
+  .cv-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro-content h1 {
+    font-size: 2.25rem;
+    max-width: 20ch;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .intro-img {
+    max-width: 250px;
+  }
+
+  .intro-name {
+    margin-bottom: 1rem;
+  }
+
+  .intro-name .typewriter {
+    font-size: 1rem;
+  }
+
+  .intro-name .span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    padding-top: 5.625rem;
+  }
+
+  .intro-img {
+    max-width: 200px;
+  }
+} */
