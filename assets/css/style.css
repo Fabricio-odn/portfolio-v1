@@ -9,8 +9,7 @@
 /* Home */
 @import url("./home/intro.css");
 @import url("./home/about.css");
-@import url("./home/intro.css");
-@import url("./home/intro.css");
+@import url("./home/project.css");
 
 /* Utlilities */
 @import url("./utilities/components.css");
