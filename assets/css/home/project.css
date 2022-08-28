@@ -1,19 +1,39 @@
 .project-bg {
-  background: url("../../img/dec/bottom-left.svg") no-repeat bottom 40px left
-      40px,
-    url("../../img/dec/top-right.svg") no-repeat top 140px right 40px,
-    var(--cor-11);
-  padding: 160px 220px;
+  background: var(--cor-11);
+}
+.project {
+  padding: 100px 0;
 }
 
-.project h2 {
+.project-content h1 {
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  display: flex;
+  width: 500px;
+  height: 680px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background: var(--cor-12);
+}
+
+.projects {
+  padding: 30px;
+}
+.projects h2 {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin: 15px 26px;
+  margin: 15px 0;
 }
-
-.project h2::before {
+.projects h2::before {
   content: "";
   display: inline-block;
   width: 34px;
@@ -21,58 +41,21 @@
   background: var(--cor-p1);
 }
 
-.project-bg img {
+.img-container {
+  width: 450px;
+  height: 356px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.img-container img {
   width: 100%;
-  display: block;
-}
-
-.project-list ul {
-  display: flex;
-  margin-top: 60px;
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  width: 560px;
-  height: 699px;
-  border-radius: 10px;
-  margin-right: 40px;
-
-  background: var(--cor-12);
-}
-
-.project-card p {
-  margin: 0 26px;
-}
-
-.project-card img {
-  border-radius: 10px;
-}
-
-.img {
-  display: flex;
-  justify-content: center;
-}
-
-.img-card1 {
-  background: url(/assets/image/animais.png) no-repeat top center;
-  background-size: cover;
-  margin-top: 24px;
-  max-width: 508px;
-  height: 386px;
-}
-.img-card2 {
-  background: url(/assets/image/bicicleta.png) no-repeat top center;
-  background-size: cover;
-  margin-top: 24px;
-  max-width: 508px;
-  height: 386px;
 }
 
 .skills-card {
-  margin: 0 26px;
+  display: flex;
+  margin-top: 53px;
 }
+
 .card {
   display: inline-block;
   background: var(--cor-10);
@@ -83,4 +66,50 @@
 
 .font-1-m-b {
   font-size: 2rem;
+}
+
+@media (max-width: 950px) {
+  .project {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .project-card {
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .projects {
+    padding: 25px;
+  }
+
+  .img-container {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+  }
+
+  .font-1-m-b {
+    font-size: 1.3rem;
+  }
+
+  .font-2-m {
+    font-size: 1rem;
+  }
+
+  .projects h2::before {
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 6px;
+    background: var(--cor-p1);
+  }
 }
