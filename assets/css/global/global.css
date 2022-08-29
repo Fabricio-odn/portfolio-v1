@@ -9,6 +9,10 @@ ul {
   margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   padding: 0px;
   list-style: none;
@@ -27,4 +31,9 @@ img {
 
 img[src$=".jpg"] {
   border-radius: 4px;
+}
+.intro,
+.about,
+.project {
+  visibility: hidden;
 }
