@@ -10,4 +10,4 @@ sr.reveal(".about", {
   distance: "50px",
   duration: 2000,
 });
-sr.reveal(".project", { origin: "right", distance: "50px", duration: 2000 });
+sr.reveal(".project", { origin: "right", distance: "200px", duration: 2000 });
