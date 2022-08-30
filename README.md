@@ -5,7 +5,7 @@
 <h4 align="center">
   Esta é a 1ª versão do meu portfólio pessoal. Criado com o objetivo de apresentar um pouco sobre mim e meus conhecimentos. Além de mostrar meus projetos ao decorrer de minha carreira.
 </h4>
-png
+
 ![Resultado final do projeto](./assets/image/animacao.gif)
 
 ## 📚 Seções
