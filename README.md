@@ -15,7 +15,6 @@ O site é composto por 5 seções diferentes:
 - **Intro:** Nele temos uma breve apresentação e o link para o meu currículo;
 - **Quem sou:** Nessa seção tenho uma descrição dizendo um pouco sobre quem sou;
 - **Projetos:** Exibe alguns projetos desenvolvidos, no qual, ao clicar no respectivo projeto, abre uma página com mais informações sobre o mesmo e seu link com o código no GitHub;
-- **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end e cursos que fiz.
 - **Contato:** Nessa sessão tenho as informações de contato;
 
 ---
